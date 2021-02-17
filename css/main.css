@@ -1,0 +1,122 @@
+@import "reset.css";
+body{
+    font-family: 'Exo 2', sans-serif;
+
+}
+.container{
+    max-width: 1475px;
+    margin: 0 auto;
+}
+span{
+    font-weight: bold;
+}
+.navbar-brand {
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    margin-right: 78px;
+}
+.nav-item a{
+    margin-right: 24px;
+}
+.my_btn{
+    border-radius: 100px;
+    background: #62afcd;
+    margin-right: 20px;
+    font-size: 14px;
+    border: none;
+    color: #fff;
+
+}
+.btn_register{
+    width: 183px;
+    padding: 11px 0;
+}
+.btn_room {
+    width: 130px;
+    padding: 11px 0;
+    margin-left: auto;
+}
+@media screen and (max-width: 990px) {
+    .my_btn {
+        width:183px;
+    }
+    .btn_register {
+        display:block;
+        margin-top:10px;
+    }
+    .logo{
+        display: none;
+    }
+}
+.offer{
+    padding-top: 253px;
+}
+.offer-desk{
+    padding: 40px  0px;
+}
+.offer-img{
+    padding-top: 253px;
+}
+.offer-btn{
+    width: 258px;
+    padding: 13px 61px;
+}
+.permision{
+    background: #62AFCD;
+    margin-top: 150px;
+}
+.permision-head{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    padding: 46px 0px 56px ;
+}
+.permision-title{
+    font-size: 24px;
+}
+.permision-text{
+    font-size: 18px;
+}
+.permision-img{
+    width: 178px;
+    text-align: center;
+}
+.card{
+    background: none;
+    border: none;
+    text-align: center;
+    color: white;
+    padding-bottom: 137px;
+
+}
+.register-img{
+    width: 114px;
+}
+.register-title{
+    color: #0f6674;
+    font-size: 20px;
+}
+.register-text{
+    color: black;
+}
+.register-head{
+    color: #0f6674;
+    font-size: 30px;
+    text-align: center;
+    padding: 75px 0px 100px;
+}
+.form{
+    padding-bottom: 160px;
+}
+.use-form{
+    width: 460px!important;
+    padding: 26px 0px 26px 26px;
+    border:2px solid #0f6674;
+}
+.form-btn{
+    width: 258px;
+    padding: 13px 65px;
+    margin-left: 31px;
+}
