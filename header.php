@@ -8,9 +8,8 @@
     <!-- Bootstrap CSS -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css.map">
     <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
@@ -47,17 +46,17 @@
                </nav>
            </div>
        </div>
-       <div class="row">
-           <div class="col-8">
-               <div class="offer">
-                   <h1 class="display-4 offer-head">Здіснюй подачу показників води легко та швидко, без жодних зусиль</h1>
-                   <p class="lead offer-desk">Система автоматизованої подачі показників, зекономить Ваш час та дозволить легко та швидко здійснювати оплату за надані послуги</p>
-                   <a class="btn btn-primary btn-lg my_btn offer-btn" href="#" role="button">Спробувати зараз</a>
+       <div class="row offer-title">
+               <div class="col-8">
+                   <div class="offer">
+                       <h1 class="display-4 offer-head">Здіснюй подачу показників води легко та швидко, без жодних зусиль</h1>
+                       <p class="lead offer-desk">Система автоматизованої подачі показників, зекономить Ваш час та дозволить легко та швидко здійснювати оплату за надані послуги</p>
+                       <a class="btn btn-primary btn-lg my_btn offer-btn" href="#" role="button">Спробувати зараз</a>
+                   </div>
                </div>
-           </div>
-           <div class="col-4 offer-img">
-               <img src="img/main-image.png" alt="main-image">
-           </div>
+               <div class="col-4 offer-img offer">
+                   <img src="img/main-image.png" alt="main-image">
+               </div>
        </div>
    </div>
 

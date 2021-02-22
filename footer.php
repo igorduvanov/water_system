@@ -5,7 +5,7 @@
         <!--Grid row-->
         <div class="row">
             <!--Grid column-->
-            <div class="">
+            <div class="col">
                 <ul class="list-unstyled d-flex justify-content-around ">
                     <li>
                         <a href="#" class="text-light">Наші переваги </a>
@@ -25,14 +25,18 @@
 
             <!--Grid column-->
             <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                <h5 class="text-light text-center">Наші контакти:</h5>
+                <h5 class="text-light ">Наші контакти:</h5>
 
-                <ul class="list-unstyled text-center">
-                    <li>
-                        <a href="#" class="text-light">+380(99)-005-6810</a>
+                <ul class="list-unstyled ">
+                    <li class="our-contacts">
+                        <a href="tel:+380990056810" class="text-light ">
+                            <i class="fas fa-phone-alt"></i>
+                            +380(99)-005-6810</a>
                     </li>
-                    <li>
-                        <a href="#" class="text-light">Husiatyn, Shevchenka st.</a>
+                    <li class="our-contacts">
+                        <a href="#" class="text-light ">
+                            <i class="fas fa-map-marker-alt"></i>
+                            Husiatyn, Shevchenka st.</a>
                     </li>
                 </ul>
             </div>
@@ -40,29 +44,33 @@
 
             <!--Grid column-->
             <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                <h5 class="mb-0 text-center text-light">Приєднуйся</h5>
+                <h5 class="mb-0 text-light">Приєднуйся</h5>
 
-                <ul class="list-unstyled d-flex justify-content-center ">
+                <ul class="list-unstyled d-flex ">
                     <li>
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-facebook-square fut-icon"></i></a>
                     </li>
                     <li>
-                        <a href="#" ><i class="fab fa-facebook-square"></i></a>
+                        <a href="#" ><i class="fab fa-twitter-square fut-icon"></i></a>
                     </li>
                     <li>
-                        <a href="#" ><i class="fab fa-facebook-square"></i></a>
+                        <a href="#" ><i class="fas fa-envelope fut-icon"></i></a>
                     </li>
                     <li>
-                        <a href="#" ><i class="fab fa-facebook-square"></i></a>
+                        <a href="#" ><i class="fab fa-linkedin fut-icon"></i></a>
                     </li>
                 </ul>
             </div>
             <!--Grid column-->
         </div>
         <!--Grid row-->
-        <div class="p-3 d-flex">
-            <p class="text-light"> © 2020 Copyright:</p>
-            <a class="text-light" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        <div class="row">
+            <div class="col">
+                <div class="p-3 d-flex">
+                    <p class="text-light"> © 2020 Copyright:</p>
+                    <a class="text-light" href="https://mdbootstrap.com/"></a>
+                </div>
+            </div>
         </div>
     </div>
     <!-- Grid container -->
@@ -78,7 +86,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
 <script src="js/bootstrap.bundle.min.js" ></script>
 <script src="js/bootstrap.min.js"></script>
-<script src="js/bootstrap.bundle.min.js.map"></script>
+
 
 <!-- Option 2: Separate Popper and Bootstrap JS -->
 

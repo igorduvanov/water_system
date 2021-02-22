@@ -38,18 +38,6 @@ span{
     padding: 11px 0;
     margin-left: auto;
 }
-@media screen and (max-width: 990px) {
-    .my_btn {
-        width:183px;
-    }
-    .btn_register {
-        display:block;
-        margin-top:10px;
-    }
-    .logo{
-        display: none;
-    }
-}
 .offer{
     padding-top: 253px;
 }
@@ -123,3 +111,43 @@ span{
 footer{
     padding-top: 51px;
 }
+.fut-icon{
+    padding: 11px;
+    font-size: 21px;
+    color: #fff;
+}
+.our-contacts {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.our-contacts i {
+    padding-right: 15px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1250px){
+    .offer-title{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+@media screen and (max-width: 990px) {
+    .my_btn {
+        width:183px;
+    }
+    .btn_register {
+        display:block;
+        margin-top:10px;
+    }
+    .logo{
+        display: none;
+    }
+}
+
