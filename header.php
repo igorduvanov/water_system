@@ -27,7 +27,7 @@
                    </button>
                    <div class="collapse navbar-collapse" id="navbarNav">
                        <ul class="navbar-nav">
-                           <li class="nav-item ">
+                           <li class="nav-item " >
                                <a class="nav-link" href="#">Наші перваги </a>
                            </li>
                            <li class="nav-item">
@@ -40,23 +40,11 @@
                                <a class="nav-link " href="#" >Допомога</a>
                            </li>
                        </ul>
-                       <button type="button" class="btn  my_btn btn_room">Мій кабінет</button>
+                       <button type="button"  class="btn  my_btn btn_room"><a href="autorization.php">Мій кабінет</a></button>
                        <button type="button" class="btn  my_btn btn_register nav-stacked nav-pills">Зареєструватися</button>
                    </div>
                </nav>
            </div>
-       </div>
-       <div class="row offer-title">
-               <div class="col-8">
-                   <div class="offer">
-                       <h1 class="display-4 offer-head">Здіснюй подачу показників води легко та швидко, без жодних зусиль</h1>
-                       <p class="lead offer-desk">Система автоматизованої подачі показників, зекономить Ваш час та дозволить легко та швидко здійснювати оплату за надані послуги</p>
-                       <a class="btn btn-primary btn-lg my_btn offer-btn" href="#" role="button">Спробувати зараз</a>
-                   </div>
-               </div>
-               <div class="col-4 offer-img offer">
-                   <img src="img/main-image.png" alt="main-image">
-               </div>
        </div>
    </div>
 

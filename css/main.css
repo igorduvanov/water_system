@@ -123,6 +123,11 @@ footer{
 .our-contacts i {
     padding-right: 15px;
 }
+/*авторизація*/
+.login-title{
+    font-size: 28px;
+    padding: 55px 0px;
+}
 
 
 

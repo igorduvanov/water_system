@@ -67,8 +67,7 @@
         <div class="row">
             <div class="col">
                 <div class="p-3 d-flex">
-                    <p class="text-light"> © 2020 Copyright:</p>
-                    <a class="text-light" href="https://mdbootstrap.com/"></a>
+                    <p class="text-light">Розробник Дуванов Ігор© 2021 Copyright</p>
                 </div>
             </div>
         </div>
