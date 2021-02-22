@@ -12,9 +12,6 @@
     <link rel="stylesheet" href="css/bootstrap.min.css.map">
     <link rel="stylesheet" href="css/all.css">
     <link rel="stylesheet" href="css/main.css">
-
-
-
 </head>
 <body>
 <header>

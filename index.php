@@ -1,5 +1,5 @@
 <?php
-include_once ('header.php');
+include ('header.php');
 ?>
 <section class="permision" xmlns="http://www.w3.org/1999/html">
     <div class="container">
@@ -99,5 +99,5 @@ include_once ('header.php');
     </div>
 </section>
 <?php
-    include_once ('footer.php');
+    include ('footer.php');
 ?>

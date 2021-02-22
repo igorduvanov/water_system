@@ -1,37 +1,23 @@
 <!-- Footer -->
-<footer class="bg-light text-center text-lg-start">
+<footer class="permision">
     <!-- Grid container -->
-    <div class="container p-4">
+    <div class="container ">
         <!--Grid row-->
         <div class="row">
             <!--Grid column-->
-            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-                <h5 class="text-uppercase">Footer Content</h5>
-
-                <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
-                    molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae aliquam
-                    voluptatem veniam, est atque cumque eum delectus sint!
-                </p>
-            </div>
-            <!--Grid column-->
-
-            <!--Grid column-->
-            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                <h5 class="text-uppercase">Links</h5>
-
-                <ul class="list-unstyled mb-0">
+            <div class="">
+                <ul class="list-unstyled d-flex justify-content-around ">
                     <li>
-                        <a href="#!" class="text-dark">Link 1</a>
+                        <a href="#" class="text-light">Наші переваги </a>
                     </li>
                     <li>
-                        <a href="#!" class="text-dark">Link 2</a>
+                        <a href="#" class="text-light">Питання та відповіді</a>
                     </li>
                     <li>
-                        <a href="#!" class="text-dark">Link 3</a>
+                        <a href="#" class="text-light">Документи</a>
                     </li>
                     <li>
-                        <a href="#!" class="text-dark">Link 4</a>
+                        <a href="#" class="text-light">Допомога </a>
                     </li>
                 </ul>
             </div>
@@ -39,34 +25,50 @@
 
             <!--Grid column-->
             <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                <h5 class="text-uppercase mb-0">Links</h5>
+                <h5 class="text-light text-center">Наші контакти:</h5>
 
-                <ul class="list-unstyled">
+                <ul class="list-unstyled text-center">
                     <li>
-                        <i class="fab fa-facebook"></i>
+                        <a href="#" class="text-light">+380(99)-005-6810</a>
                     </li>
                     <li>
-                        <a href="#!" class="text-dark">Link 2</a>
+                        <a href="#" class="text-light">Husiatyn, Shevchenka st.</a>
+                    </li>
+                </ul>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="mb-0 text-center text-light">Приєднуйся</h5>
+
+                <ul class="list-unstyled d-flex justify-content-center ">
+                    <li>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
                     </li>
                     <li>
-                        <a href="#!" class="text-dark">Link 3</a>
+                        <a href="#" ><i class="fab fa-facebook-square"></i></a>
                     </li>
                     <li>
-                        <a href="#!" class="text-dark">Link 4</a>
+                        <a href="#" ><i class="fab fa-facebook-square"></i></a>
+                    </li>
+                    <li>
+                        <a href="#" ><i class="fab fa-facebook-square"></i></a>
                     </li>
                 </ul>
             </div>
             <!--Grid column-->
         </div>
         <!--Grid row-->
+        <div class="p-3 d-flex">
+            <p class="text-light"> © 2020 Copyright:</p>
+            <a class="text-light" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        </div>
     </div>
     <!-- Grid container -->
 
     <!-- Copyright -->
-    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
-        © 2020 Copyright:
-        <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
-    </div>
+
     <!-- Copyright -->
 </footer>
 <!-- Footer -->
