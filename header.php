@@ -19,8 +19,8 @@
            <div class="col">
 
                <nav class="navbar navbar-expand-lg navbar-light ">
-                   <a class="navbar-brand" href="#">
-                       <img src="img/logo.png" alt="main logo" class="logo">
+                   <a class="navbar-brand" href="index.php">
+                       <img src="img/logo.png" alt="main logo" class="logo ">
                    </a>
                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                        <span class="navbar-toggler-icon"></span>
@@ -28,7 +28,7 @@
                    <div class="collapse navbar-collapse" id="navbarNav">
                        <ul class="navbar-nav">
                            <li class="nav-item " >
-                               <a class="nav-link" href="#">Наші перваги </a>
+                               <a class="nav-link" href="#permision">Наші перваги </a>
                            </li>
                            <li class="nav-item">
                                <a class="nav-link" href="#">Питання та відповіді</a>
@@ -44,6 +44,11 @@
                        <button type="button" class="btn  my_btn btn_register nav-stacked nav-pills">Зареєструватися</button>
                    </div>
                </nav>
+               <div class="logo-mobile">
+                   <a href="index.php">
+                       <img src="img/logo.png" alt="main logo" class="">
+                   </a>
+               </div>
            </div>
        </div>
    </div>

@@ -1,5 +1,5 @@
 <!-- Footer -->
-<footer class="permision">
+<footer class="permision footer-login">
     <!-- Grid container -->
     <div class="container ">
         <!--Grid row-->

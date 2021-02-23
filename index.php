@@ -19,7 +19,7 @@ include ('header.php');
         </div>
     </div>
 </div>
-<section class="permision" xmlns="http://www.w3.org/1999/html">
+<section class="permision" xmlns="http://www.w3.org/1999/html" id="permision">
     <div class="container">
         <div class="row">
             <div class="col">
