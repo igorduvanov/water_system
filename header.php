@@ -41,7 +41,7 @@
                            </li>
                        </ul>
                        <button type="button"  class="btn  my_btn btn_room"><a href="autorization.php">Мій кабінет</a></button>
-                       <button type="button" class="btn  my_btn btn_register nav-stacked nav-pills">Зареєструватися</button>
+                       <button type="button" class="btn  my_btn btn_register nav-stacked nav-pills"><a href="registr.php">Зареєструватися</a></button>
                    </div>
                </nav>
                <div class="logo-mobile">
