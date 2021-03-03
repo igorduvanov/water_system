@@ -4,7 +4,7 @@ body{
 
 }
 .container{
-    max-width: 1475px;
+
     margin: 0 auto;
 }
 span{
@@ -145,10 +145,12 @@ footer{
 }
 
 
+@media screen and (min-width: 1380px){
+    .container{
+        max-width: 1380px;
+    }
 
-
-
-
+}
 @media screen and (max-width: 1250px){
     .offer-title{
         display: flex;

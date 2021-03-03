@@ -9,7 +9,7 @@ include ('header.php');
                     <div class="offer">
                         <h1 class="display-4 offer-head">Здіснюй подачу показників води легко та швидко, без жодних зусиль</h1>
                         <p class="lead offer-desk">Система автоматизованої подачі показників, зекономить Ваш час та дозволить легко та швидко здійснювати оплату за надані послуги</p>
-                        <a class="btn btn-primary btn-lg my_btn offer-btn" href="#" role="button">Спробувати зараз</a>
+                        <a class="btn btn-primary btn-lg my_btn offer-btn" href="autorization.php" role="button">Спробувати зараз</a>
                     </div>
                 </div>
                 <div class="col-4 offer-img offer">
