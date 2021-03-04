@@ -3,6 +3,9 @@ body{
     font-family: 'Exo 2', sans-serif;
 
 }
+.own-btn {
+    display: none;
+}
 .container{
 
     margin: 0 auto;
@@ -160,9 +163,6 @@ footer{
 
 }
 @media screen and (max-width: 990px) {
-    .my_btn {
-        width:183px;
-    }
     .btn_register {
         display:block;
         margin-top:10px;
@@ -190,4 +190,20 @@ footer{
         margin-top: 80px;
     }
 }
-
+@media screen and (max-width: 1199px) {
+    .nav-link  {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 991px) {
+    .btn_register,
+    .btn_room{
+        display: none;
+    }
+    .own-btn {
+        display: block;
+    }
+    .form-btn{
+        margin-top: 15px;
+    }
+}

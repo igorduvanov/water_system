@@ -26,7 +26,7 @@ include ('header.php');
                 <h2 class="permision-head">Переваги нашої системи</h2>
             </div>
         </div>
-        <div class="row row-cols-1 row-cols-md-4">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
             <div class="col ">
                 <div class="card h-100">
                     <img src="img/image 5.png" class="card-img-top permision-img rounded mx-auto d-block" alt="...">
@@ -74,7 +74,7 @@ include ('header.php');
                 <h2 class="register-head">Проста та швидка реєстрація</h2>
             </div>
         </div>
-        <div class="rov">
+        <div class="row">
             <div class="col">
                 <div class="card-deck">
                     <div class="card">
@@ -105,12 +105,13 @@ include ('header.php');
             </div>
         </div>
         <div class="row">
-            <div class="col">
+            <div class="col ">
                 <form class="form-inline form justify-content-center ">
                     <div class="form-group  ">
                         <input type="email" class="form-control use-form " id="inputPassword2" placeholder="Введіть email ">
                     </div>
-                    <button type="submit" class="btn btn-primary my_btn form-btn ">Зареєструватися</button>
+<!--                    <button type="submit" class="btn btn-primary my_btn form-btn ">Зареєструватися</button>-->
+                    <a href="autorization.php" class=" btn btn-primary my_btn form-btn">Зареєструватися</a>
                 </form>
             </div>
         </div>

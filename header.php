@@ -39,6 +39,12 @@
                            <li class="nav-item">
                                <a class="nav-link " href="#" >Допомога</a>
                            </li>
+                           <li class="nav-item own-btn">
+                               <a class="nav-link " href="autorization.php" >Мій кабінет</a>
+                           </li>
+                           <li class="nav-item own-btn">
+                               <a class="nav-link " href="registr.php" >Зареєструватися</a>
+                           </li>
                        </ul>
                        <a href="autorization.php" class="btn btn-primary my_btn btn_room" role="button">Мій кабінет</a>
                        <a href="registr.php" class=" btn btn-primary my_btn btn_register">Зареєструватися</a>
