@@ -53,6 +53,10 @@ span{
 }
 .offer-img{
     padding-top: 253px;
+    /*background:url("../img/main-image.png") no-repeat center center;*/
+}
+.tablet-img{
+    display: none;
 }
 .offer-btn{
     width: 258px;
@@ -206,4 +210,14 @@ footer{
     .form-btn{
         margin-top: 15px;
     }
+}
+@media screen and (max-width: 1265px) {
+    .desktop-img {
+        display: none;
+        /*background: url("../img/tablet.png") no-repeat center center;*/
+    }
+    .tablet-img{
+        display: block;
+    }
+
 }

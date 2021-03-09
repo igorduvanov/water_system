@@ -43,7 +43,7 @@ include('header.php')
         </div>
 
         <!-- Sign up button -->
-        <button class="btn btn-info my-4 my_btn offer-btn" type="submit"><a href="room.php">Зареєструватися</a></button>
+        <a href="room.php" class="btn btn-primary my_btn btn_register">Увійти</a>
 
 
     </form>

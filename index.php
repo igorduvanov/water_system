@@ -13,7 +13,8 @@ include ('header.php');
                     </div>
                 </div>
                 <div class="col-4 offer-img offer">
-                    <img src="img/main-image.png" alt="main-image">
+                    <img src="img/main-image.png" alt="main-image" class="desktop-img">
+                    <img src="img/tablet.png" alt="main-image" class="tablet-img">
                 </div>
             </div>
         </div>

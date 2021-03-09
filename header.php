@@ -28,7 +28,7 @@
                    <div class="collapse navbar-collapse" id="navbarNav">
                        <ul class="navbar-nav">
                            <li class="nav-item " >
-                               <a class="nav-link" href="#permision">Наші перваги </a>
+                               <a class="nav-link" href="index.php#permision">Наші перваги </a>
                            </li>
                            <li class="nav-item">
                                <a class="nav-link" href="#">Питання та відповіді</a>

@@ -30,7 +30,7 @@ include('header.php');
                     <input type="checkbox" class="form-check-input" id="exampleCheck1">
                     <label class="form-check-label" for="exampleCheck1">Запам’ятати мене</label>
                 </div>
-                <button type="submit" class="btn btn-primary my_btn offer-btn"><a href="room.php">Увійти</a></button>
+                <a href="room.php" class="btn btn-primary my_btn btn_register">Увійти</a>
                 <a href="#" class="col-lg-4 d-flex  forgot-pasword">Забули пароль?</a>
             </form>
         </div>
