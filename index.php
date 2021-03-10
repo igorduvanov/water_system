@@ -14,7 +14,7 @@ include ('header.php');
                 </div>
                 <div class="col-4 offer-img offer">
                     <img src="img/main-image.png" alt="main-image" class="desktop-img">
-                    <img src="img/tablet.png" alt="main-image" class="tablet-img">
+                    <img src="img/tablet.png" alt="tablet-img" class="tablet-img">
                 </div>
             </div>
         </div>
@@ -112,7 +112,7 @@ include ('header.php');
                         <input type="email" class="form-control use-form " id="inputPassword2" placeholder="Введіть email ">
                     </div>
 <!--                    <button type="submit" class="btn btn-primary my_btn form-btn ">Зареєструватися</button>-->
-                    <a href="autorization.php" class=" btn btn-primary my_btn form-btn">Зареєструватися</a>
+                    <a href="registr.php" class=" btn btn-primary my_btn form-btn">Зареєструватися</a>
                 </form>
             </div>
         </div>

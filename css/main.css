@@ -53,7 +53,7 @@ span{
 }
 .offer-img{
     padding-top: 253px;
-    /*background:url("../img/main-image.png") no-repeat center center;*/
+
 }
 .tablet-img{
     display: none;
@@ -150,6 +150,17 @@ footer{
 .register-form{
     padding-bottom: 100px;
 }
+/*банер*/
+.banner{
+    background: #EBC35E;
+}
+
+
+/*Мій кабінет таби*/
+.color-tabs{
+    color: #000000;
+}
+
 
 
 @media screen and (min-width: 1380px){
@@ -200,8 +211,7 @@ footer{
     }
 }
 @media screen and (max-width: 991px) {
-    .btn_register,
-    .btn_room{
+    .hidde{
         display: none;
     }
     .own-btn {
@@ -214,7 +224,7 @@ footer{
 @media screen and (max-width: 1265px) {
     .desktop-img {
         display: none;
-        /*background: url("../img/tablet.png") no-repeat center center;*/
+
     }
     .tablet-img{
         display: block;

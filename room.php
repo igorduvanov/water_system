@@ -5,66 +5,29 @@ include ('header.php')
 <div class="container">
     <div class="row">
         <div class="col">
+            
             <!-- Tabs navs -->
-            <ul class="nav nav-tabs mb-3" id="ex1" role="tablist">
-                <li class="nav-item" role="presentation">
-                    <a
-                        class="nav-link active"
-                        id="ex1-tab-1"
-                        data-mdb-toggle="tab"
-                        href="#ex1-tabs-1"
-                        role="tab"
-                        aria-controls="ex1-tabs-1"
-                        aria-selected="true"
-                    >Tab 1
-
-                    </a>
+            <!-- Табы с aria-атрибутами в Bootstrap 4 -->
+            <ul class="nav nav-tabs" id="product" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link color-tabs active" id="description-tab" data-toggle="tab" href="#description" role="tab" aria-controls="description" aria-selected="true">Мої дані</a>
                 </li>
-                <li class="nav-item" role="presentation">
-                    <a
-                        class="nav-link"
-                        id="ex1-tab-2"
-                        data-mdb-toggle="tab"
-                        href="#ex1-tabs-2"
-                        role="tab"
-                        aria-controls="ex1-tabs-2"
-                        aria-selected="false"
-                    >Tab 2</a
-                    >
+                <li class="nav-item">
+                    <a class="nav-link color-tabs" id="characteristics-tab" data-toggle="tab" href="#characteristics" role="tab" aria-controls="characteristics" aria-selected="false">Показники</a>
                 </li>
-                <li class="nav-item" role="presentation">
-                    <a
-                        class="nav-link"
-                        id="ex1-tab-3"
-                        data-mdb-toggle="tab"
-                        href="#ex1-tabs-3"
-                        role="tab"
-                        aria-controls="ex1-tabs-3"
-                        aria-selected="false"
-                    >Tab 3</a
-                    >
+                <li class="nav-item">
+                    <a class="nav-link color-tabs" id="opinion-tab" data-toggle="tab" href="#opinion" role="tab" aria-controls="opinion" aria-selected="false">Нарахування</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link color-tabs" id="pay-tab" data-toggle="tab" href="#pay" role="tab" aria-controls="pay" aria-selected="false">Оплата</a>
                 </li>
             </ul>
-            <!-- Tabs navs -->
-
-            <!-- Tabs content -->
-            <div class="tab-content" id="ex1-content">
-                <div
-                    class="tab-pane fade show active"
-                    id="ex1-tabs-1"
-                    role="tabpanel"
-                    aria-labelledby="ex1-tab-1"
-                >
-                    Tab 1 content
-                </div>
-                <div class="tab-pane fade" id="ex1-tabs-2" role="tabpanel" aria-labelledby="ex1-tab-2">
-                    Tab 2 content
-                </div>
-                <div class="tab-pane fade" id="ex1-tabs-3" role="tabpanel" aria-labelledby="ex1-tab-3">
-                    Tab 3 content
-                </div>
+            <div class="tab-content" id="product-content">
+                <div class="tab-pane fade show active" id="description" role="tabpanel" aria-labelledby="description-tab">1 панель</div>
+                <div class="tab-pane fade" id="characteristics" role="tabpanel" aria-labelledby="characteristics-tab">2 панель</div>
+                <div class="tab-pane fade" id="opinion" role="tabpanel" aria-labelledby="opinion-tab">3 панель</div>
+                <div class="tab-pane fade" id="pay" role="tabpanel" aria-labelledby="pay-tab">4 панель</div>
             </div>
-            <!-- Tabs content -->
         </div>
     </div>
 </div>

@@ -18,7 +18,7 @@
        <div class="row">
            <div class="col">
 
-               <nav class="navbar navbar-expand-lg navbar-light ">
+               <nav class="navbar navbar-expand-lg navbar-light  ">
                    <a class="navbar-brand" href="index.php">
                        <img src="img/logo.png" alt="main logo" class="logo ">
                    </a>
@@ -46,8 +46,8 @@
                                <a class="nav-link " href="registr.php" >Зареєструватися</a>
                            </li>
                        </ul>
-                       <a href="autorization.php" class="btn btn-primary my_btn btn_room" role="button">Мій кабінет</a>
-                       <a href="registr.php" class=" btn btn-primary my_btn btn_register">Зареєструватися</a>
+                       <a href="autorization.php" class="btn btn-primary my_btn btn_room hidde" role="button">Мій кабінет</a>
+                       <a href="registr.php" class=" btn btn-primary my_btn btn_register hidde">Зареєструватися</a>
                    </div>
                </nav>
                <div class="logo-mobile">
