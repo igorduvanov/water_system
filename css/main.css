@@ -151,14 +151,36 @@ footer{
     padding-bottom: 100px;
 }
 /*банер*/
-.banner{
-    background: #EBC35E;
+.room-head{
+    padding-top: 21px;
+    padding-bottom: 30px;
+}
+.info{
+    text-align: center;
+    justify-content: center;
 }
 
+.banner{
+    background: #EBC35E;
+    margin-bottom: 30px;
+}
+.banner-item{
+    padding: 18px 0px;
+}
 
 /*Мій кабінет таби*/
 .color-tabs{
     color: #000000;
+    font-size: 20px;
+}
+.color-tabs  i {
+    color: #0067AC;
+    font-size: 30px;
+    padding-right: 15px;
+}
+.room-date {
+    background: #F2F2F2;
+    margin-top: 30px;
 }
 
 
