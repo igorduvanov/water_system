@@ -17,7 +17,6 @@
    <div class="container">
        <div class="row">
            <div class="col">
-
                <nav class="navbar navbar-expand-lg navbar-light  ">
                    <a class="navbar-brand" href="index.php">
                        <img src="img/logo.png" alt="main logo" class="logo ">
@@ -26,7 +25,7 @@
                        <span class="navbar-toggler-icon"></span>
                    </button>
                    <div class="collapse navbar-collapse" id="navbarNav">
-                       <ul class="navbar-nav">
+                       <ul class="navbar-nav col-8">
                            <li class="nav-item " >
                                <a class="nav-link" href="index.php#permision">Наші перваги </a>
                            </li>
