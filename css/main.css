@@ -1,6 +1,7 @@
 @import "reset.css";
 body{
     font-family: 'Exo 2', sans-serif;
+    font-size: 16px;
 
 }
 .own-btn {
@@ -46,13 +47,13 @@ span{
     margin-left: auto;
 }
 .offer{
-    padding-top: 253px;
+    padding-top:130px;
 }
 .offer-desk{
     padding: 40px  0px;
 }
 .offer-img{
-    padding-top: 253px;
+    padding-top: 130px;
 
 }
 .tablet-img{
