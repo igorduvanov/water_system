@@ -183,7 +183,37 @@ footer{
     background: #F2F2F2;
     margin-top: 30px;
 }
+/*контент табів 1*/
+.bg-style {
+    background: #FCFCFC;
+    box-shadow: 2px 1px 25px rgba(0, 0, 0, 0.25);
+}
+.information-user{
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.user-icon{
+    font-size: 55px;
+    padding: 25px 15px 35px 25px;
+    color: #0067AC;
+}
+.user-name h3{
+    padding-top: 25px;
+    font-size: 30px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+}
+.information-meters {
+    font-size: 22px;
+    padding: 25px 15px 35px 25px;
+}
 
+
+.user-data{
+    margin-top: 60px;
+    padding-top: 25px;
+    padding-left: 25px;
+}
 
 
 @media screen and (min-width: 1380px){

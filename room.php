@@ -17,7 +17,7 @@
                     </div>
                     <div class="col-9">
                         <div class="info">
-                            <p>10,5 грн<br>ціна на січень 2021 за 1 м3</p>
+                            <p><span>10,5 грн</span><br>ціна на січень 2021 за 1 м3</p>
                         </div>
                     </div>
                     <div class="col-2">
@@ -64,20 +64,33 @@
                                 <div class="row">
                                     <div class="col-6">
                                         <div class="information">
-                                            <div class="information-user d-flex">
+                                            <div class="information-user bg-style d-flex">
                                                 <div class="user-icon">
                                                     <i class="fas fa-user-circle"></i>
                                                 </div>
                                                 <div class="user-name">
-                                                    Чаплінський Роман
+                                                    <h3>Чаплінський Роман</h3>
+                                                    <p>Васильківці, вулиця Горянська, 4</p>
                                                 </div>
                                             </div>
-                                            <div class="information-meters"></div>
-                                            <div class="information-pays"></div>
+                                            <div class="information-meters bg-style d-flex">
+                                                <div class="">
+                                                    <h4>Подати показник</h4>
+                                                    <p>Прийом показників здійснюється кожного місяця з 1 по 3 число
+                                                        (включно)</p>
+                                                </div>
+                                                <div class="">
+                                                    <form action="">
+                                                        <input type="text" placeholder="Введіть Ваш показник">
+                                                        <input type="submit" value="Ввести">
+                                                    </form>
+                                                </div>
+                                            </div>
+                                            <div class="information-pays bg-style"></div>
                                         </div>
                                     </div>
                                     <div class="col-6">
-                                        <div class="user-data">
+                                        <div class="user-data bg-style">
                                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aspernatur commodi delectus minus omnis reiciendis rerum? Est fugiat nihil odit sequi. Dignissimos expedita fuga ipsum libero, quo ullam! Consectetur exercitationem illum ipsam, maxime nam nemo nisi recusandae veniam! A dicta facilis fuga fugiat illum mollitia nam natus nulla quo quod?
                                         </div>
                                     </div>
